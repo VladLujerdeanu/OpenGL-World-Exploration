@@ -1,0 +1,13 @@
+# Blender MTL File: 'ProiectPG.blend'
+# Material Count: 1
+
+newmtl Mat_Cloud.002
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.000304 0.000304 0.000304
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd PolygonWestern_Texture_01_A.png

@@ -1,0 +1,19 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl Material.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd bricks2.jpg
+#map_Kd redbricky.png
+map_Ks bricks2_spec.jpg
+#map_Ks white.png
+map_Bump bricks2_normal.jpg
+map_d white.png
+disp bricks2_disp.jpg
