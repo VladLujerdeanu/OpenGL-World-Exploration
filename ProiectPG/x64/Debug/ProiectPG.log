@@ -1,0 +1,66 @@
+﻿  Camera.cpp
+  main.cpp
+J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\ProiectPG\main.cpp(179,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\ProiectPG\main.cpp(180,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\ProiectPG\main.cpp(184,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\ProiectPG\main.cpp(185,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\ProiectPG\main.cpp(186,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\ProiectPG\main.cpp(187,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Mesh.cpp
+J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\ProiectPG\Mesh.cpp(32,72): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model3D.cpp
+J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\ProiectPG\Model3D.cpp(89,40): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=GLuint
+          ]
+J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\ProiectPG\Model3D.cpp(97,46): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Shader.cpp
+  stb_image.cpp
+  tiny_obj_loader.cpp
+  Window.cpp
+  Generating Code...
+LINK : warning LNK4217: symbol '__glewActiveTexture' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)'
+LINK : warning LNK4217: symbol '__glewBindBuffer' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBufferData' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewGenBuffers' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewEnableVertexAttribArray' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewGetUniformLocation' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)'
+LINK : warning LNK4217: symbol '__glewUniform1i' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)'
+LINK : warning LNK4217: symbol '__glewVertexAttribPointer' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBindVertexArray' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)'
+LINK : warning LNK4217: symbol '__glewGenVertexArrays' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewDeleteBuffers' defined in 'libglew32d.lib(glew.obj)' is imported by 'Model3D.obj' in function '"public: __cdecl gps::Model3D::~Model3D(void)" (??1Model3D@gps@@QEAA@XZ)'
+LINK : warning LNK4217: symbol '__glewGenerateMipmap' defined in 'libglew32d.lib(glew.obj)' is imported by 'Model3D.obj' in function '"private: unsigned int __cdecl gps::Model3D::ReadTextureFromFile(char const *)" (?ReadTextureFromFile@Model3D@gps@@AEAAIPEBD@Z)'
+LINK : warning LNK4217: symbol '__glewDeleteVertexArrays' defined in 'libglew32d.lib(glew.obj)' is imported by 'Model3D.obj' in function '"public: __cdecl gps::Model3D::~Model3D(void)" (??1Model3D@gps@@QEAA@XZ)'
+LINK : warning LNK4217: symbol '__glewAttachShader' defined in 'libglew32d.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl gps::Shader::loadShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadShader@Shader@gps@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)'
+LINK : warning LNK4217: symbol '__glewCompileShader' defined in 'libglew32d.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl gps::Shader::loadShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadShader@Shader@gps@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)'
+LINK : warning LNK4217: symbol '__glewCreateProgram' defined in 'libglew32d.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl gps::Shader::loadShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadShader@Shader@gps@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)'
+LINK : warning LNK4217: symbol '__glewCreateShader' defined in 'libglew32d.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl gps::Shader::loadShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadShader@Shader@gps@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)'
+LINK : warning LNK4217: symbol '__glewDeleteShader' defined in 'libglew32d.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl gps::Shader::loadShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadShader@Shader@gps@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)'
+LINK : warning LNK4217: symbol '__glewGetProgramInfoLog' defined in 'libglew32d.lib(glew.obj)' is imported by 'Shader.obj' in function '"private: void __cdecl gps::Shader::shaderLinkLog(unsigned int)" (?shaderLinkLog@Shader@gps@@AEAAXI@Z)'
+LINK : warning LNK4217: symbol '__glewGetProgramiv' defined in 'libglew32d.lib(glew.obj)' is imported by 'Shader.obj' in function '"private: void __cdecl gps::Shader::shaderLinkLog(unsigned int)" (?shaderLinkLog@Shader@gps@@AEAAXI@Z)'
+LINK : warning LNK4217: symbol '__glewGetShaderInfoLog' defined in 'libglew32d.lib(glew.obj)' is imported by 'Shader.obj' in function '"private: void __cdecl gps::Shader::shaderCompileLog(unsigned int)" (?shaderCompileLog@Shader@gps@@AEAAXI@Z)'
+LINK : warning LNK4217: symbol '__glewGetShaderiv' defined in 'libglew32d.lib(glew.obj)' is imported by 'Shader.obj' in function '"private: void __cdecl gps::Shader::shaderCompileLog(unsigned int)" (?shaderCompileLog@Shader@gps@@AEAAXI@Z)'
+LINK : warning LNK4217: symbol '__glewLinkProgram' defined in 'libglew32d.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl gps::Shader::loadShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadShader@Shader@gps@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)'
+LINK : warning LNK4217: symbol '__glewShaderSource' defined in 'libglew32d.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl gps::Shader::loadShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadShader@Shader@gps@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)'
+LINK : warning LNK4217: symbol '__glewUseProgram' defined in 'libglew32d.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl gps::Shader::useShaderProgram(void)" (?useShaderProgram@Shader@gps@@QEAAXXZ)'
+LINK : warning LNK4217: symbol 'glewInit' defined in 'libglew32d.lib(glew.obj)' is imported by 'Window.obj' in function '"public: void __cdecl gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QEAAXHHPEBD@Z)'
+LINK : warning LNK4217: symbol 'glewExperimental' defined in 'libglew32d.lib(glew.obj)' is imported by 'Window.obj' in function '"public: void __cdecl gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QEAAXHHPEBD@Z)'
+glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(context.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(init.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(input.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(vulkan.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(vulkan.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(window.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_init.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_monitor.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_time.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_thread.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_thread.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(wgl_context.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(egl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(egl_context.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(osmesa_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(osmesa_context.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glfw.pdb'; linking object as if no debug info
+libglew32d.lib(glew.obj) : warning LNK4099: PDB 'glew_s.pdb' was not found with 'libglew32d.lib(glew.obj)' or at 'J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\glew_s.pdb'; linking object as if no debug info
+  ProiectPG.vcxproj -> J:\Facultate\AN 3\PG\Proiect PG\ProiectPG\x64\Debug\ProiectPG.exe
